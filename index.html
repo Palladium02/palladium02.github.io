@@ -7,7 +7,91 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-  <h1>My Portfolio</h1>
+<body data-darkmode="">
+  <div class="content">
+    <section class="personal">
+      <div class="image">
+        <img src="/img/avatar.png" alt="#" onerror="event.target.classList.add('image-error')">
+      </div>
+      <div class="personal-data">
+        <span id="name">Sean Meyer</span>
+        <span id="age"></span>
+        <span id="profession">chemistry major</span>
+      </div>
+    </section>
+    <div class="section-divider">
+      <div class="divider"></div>
+    </div>
+    <section class="section education">
+      <div class="section-header">
+        <h1>Education/Experience</h1>
+      </div>
+      <div class="section-content">
+        <div class="timeline">
+          <div class="event">
+            <div class="year">2019</div>
+            <div class="short-describtion">
+              <p>
+                Internship at <a>UXMA</a>, a german UI/UX & software development company
+              </p>
+            </div>
+          </div>
+          <div class="event">
+            <div class="year">2021</div>
+            <div class="short-describtion">
+              <p>
+                Graduation from the Max-Planck-Schule, a german high school
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section-divider">
+      <div class="divider"></div>
+    </div>
+    <section class="section technology">
+      <div class="section-header">
+        <h1>Technology</h1>
+      </div>
+      <div class="section-content">
+        <div class="technology-stack">
+          <div class="logo-row">
+            <div class="logo js">
+              <img src="/img/js.png" alt="#">
+            </div>
+            <div class="logo ts">
+              <img src="/img/ts.png" alt="#">
+            </div>
+            <div class="logo rb">
+              <img src="/img/rb.png" alt="#">
+            </div>
+            <div class="logo">
+              <img src="/img/py.png" alt="#">
+            </div>
+          </div>
+          <div class="logo-row">
+            <div class="logo js">
+              <img src="/img/h5.png" alt="#">
+            </div>
+            <div class="logo ts">
+              <img src="/img/c3.png" alt="#">
+            </div>
+            <div class="logo rb">
+              <img src="/img/mongo.png" alt="#">
+            </div>
+            <div class="logo">
+              <img src="/img/my.png" alt="#">
+            </div>
+          </div>
+        </div>
+        <p>
+          Even though I have a big repartoire of technologies to use, I tend to use the MERN stack. I also have a sense for art and creativity, meaning that I
+          also enjoy creating user interfaces combined with an awesome experience.
+        </p>
+      </div>
+    </section>
+  </div>
+  <script src="/js/app.js"></script>
 </body>
 </html>
